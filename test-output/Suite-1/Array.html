@@ -1,0 +1,419 @@
+<html>
+<head>
+<title>TestNG:  Array</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Array</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 08 18:18:24 EST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205306 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test.array_links_validation()'><b>array_links_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test<br/>
+<a href="#Output-709395627" onClick='toggleBox("Output-709395627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-709395627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-709395627">
+User is navigated to the applications of array page<br/>
+User is navigated to the tryEditor page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test@544d57e</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.array_links_validation()'><b>array_links_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-1234267844" onClick='toggleBox("Output-1234267844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1234267844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1234267844">
+User is at the Arrays in python page<br/>
+User clicked on the try here button<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test.array_links_validation()'><b>array_links_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test<br/>
+<a href="#Output-438992382" onClick='toggleBox("Output-438992382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-438992382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-438992382">
+User is at the arrays using list page<br/>
+User is navigated to the tryEditor page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test@53b7f657</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test.array_links_validation()'><b>array_links_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test<br/>
+<a href="#Output-2063685775" onClick='toggleBox("Output-2063685775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2063685775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2063685775">
+User is navigated to the basic operations list page<br/>
+User is navigated to the tryEditor page<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test@797b0699</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page.array_links_validation()'><b>array_links_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page<br/>
+<a href="#Output-2077514822" onClick='toggleBox("Output-2077514822", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2077514822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2077514822">
+User is at the Arrays in python page<br/>
+User is at the arrays using list page<br/>
+User is navigated to the basic operations list page<br/>
+User is navigated to the applications of array page<br/>
+User is navigated back to the array page<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page@5a37d3ed</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.navigate_to_arrrays_page.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.navigate_to_arrrays_page<br/>
+<a href="#Output-1477377796" onClick='toggleBox("Output-1477377796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1477377796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1477377796">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.navigate_to_arrrays_page@26df6e3a</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test<br/>
+<a href="#Output-2113713603" onClick='toggleBox("Output-2113713603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113713603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113713603">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test@544d57e</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-543767132" onClick='toggleBox("Output-543767132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-543767132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-543767132">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test<br/>
+<a href="#Output-853017402" onClick='toggleBox("Output-853017402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-853017402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-853017402">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test@53b7f657</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test<br/>
+<a href="#Output-885557094" onClick='toggleBox("Output-885557094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-885557094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-885557094">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test@797b0699</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page.dsintropage_navigation()'><b>dsintropage_navigation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page<br/>
+<a href="#Output-1543222629" onClick='toggleBox("Output-1543222629", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1543222629" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1543222629">
+Validate if the user is able to login with the Valid username and the password<br/>
+User navigated to the Home page<br/>
+User navigated to the Signin page<br/>
+Username value is entered<br/>
+Password value is entered<br/>
+Submit button is entered<br/>
+User is at the Array page<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.links_validation_at_Array_page@5a37d3ed</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test.invalidecode_validation()'><b>invalidecode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test<br/>
+<a href="#Output-920176660" onClick='toggleBox("Output-920176660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920176660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920176660">
+Test to validate if alert is popped when user tries to run invalid code<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Alert is popped successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test@544d57e</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test.invalidecode_validation()'><b>invalidecode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test<br/>
+<a href="#Output-1205979347" onClick='toggleBox("Output-1205979347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1205979347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205979347">
+Test to validate if alert is popped when user tries to run invalid code<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Alert is popped successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test@797b0699</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.invalidecode_validation()'><b>invalidecode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-1516472623" onClick='toggleBox("Output-1516472623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1516472623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1516472623">
+Test to validate if alert is popped when user tries to run invalid code<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Alert is popped successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test.invalidfile_validation()'><b>invalidfile_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test<br/>
+<a href="#Output-1887029165" onClick='toggleBox("Output-1887029165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1887029165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1887029165">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test@53b7f657</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test.invalidfile_validation()'><b>invalidfile_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test<br/>
+<a href="#Output-562117125" onClick='toggleBox("Output-562117125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-562117125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-562117125">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test@544d57e</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.invalidfile_validation()'><b>invalidfile_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-1244734147" onClick='toggleBox("Output-1244734147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1244734147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1244734147">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.test_run_button()'><b>test_run_button</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-13301265" onClick='toggleBox("Output-13301265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13301265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13301265">
+Test to validate if alert popped if user tries to run without enterig code<br/>
+Run Button clicked successfully<br/>
+Alert is popped successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test.validCode_validation()'><b>validCode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test<br/>
+<a href="#Output-1499394868" onClick='toggleBox("Output-1499394868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1499394868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1499394868">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.applications_of_array_tryeditor_test@544d57e</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test.validCode_validation()'><b>validCode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test<br/>
+<a href="#Output-1501586467" onClick='toggleBox("Output-1501586467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501586467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501586467">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_using_list_tryeditor_test@53b7f657</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test.validCode_validation()'><b>validCode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test<br/>
+<a href="#Output-906333659" onClick='toggleBox("Output-906333659", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-906333659" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-906333659">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.basic_operationis_list_tryeditor_test@797b0699</td></tr>
+<tr>
+<td title='com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test.validCode_validation()'><b>validCode_validation</b><br>Test class: com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test<br/>
+<a href="#Output-1690000028" onClick='toggleBox("Output-1690000028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1690000028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1690000028">
+Test to validate if user able to enter valid code , click Run and see the output<br/>
+Code is written successfully in the editor form<br/>
+Run Button clicked successfully<br/>
+Output for the code is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.numpy_ninja.dsalgo.arrays.test.arrays_in_python_tryeditor_test@55c53a33</td></tr>
+</table><p>
+</body>
+</html>

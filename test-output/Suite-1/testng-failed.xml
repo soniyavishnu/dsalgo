@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="DataStructures Introduction(failed)">
+    <classes>
+      <class name="com.numpy_ninja.dsalgo.dsintro.test.navigate_to_dsintropage_ddt">
+        <methods>
+          <include name="dsintropage_navigation" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.numpy_ninja.dsalgo.dsintro.test.navigate_to_dsintropage_ddt -->
+    </classes>
+  </test> <!-- DataStructures Introduction(failed) -->
+  <test thread-count="5" parallel="tests" name="login(failed)">
+    <classes>
+      <class name="com.numpy_ninja.dsalgo.tests.Login_ExistingUser_DDT_Validation">
+        <methods>
+          <include name="beforetest"/>
+          <include name="logintohomepage1" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.numpy_ninja.dsalgo.tests.Login_ExistingUser_DDT_Validation -->
+      <class name="com.numpy_ninja.dsalgo.tests.Login_ExistingUser_DDT">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="logintohomepage" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.numpy_ninja.dsalgo.tests.Login_ExistingUser_DDT -->
+      <class name="com.numpy_ninja.dsalgo.tests.register_Newuser">
+        <methods>
+          <include name="aftertest"/>
+          <include name="newuser_register" invocation-numbers="0 1"/>
+          <include name="beforett"/>
+        </methods>
+      </class> <!-- com.numpy_ninja.dsalgo.tests.register_Newuser -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [Suite-1] -->

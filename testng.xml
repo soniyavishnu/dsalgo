@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite-1" verbose="1" parallel = "tests">
+    <test name="login">
+    <packages>
+        <package name="com.numpy_ninja.dsalgo.tests" />
+    </packages>
+    </test>
+    
+       	<test name="DataStructures Introduction">
+    <packages>
+        <package name="com.numpy_ninja.dsalgo.dsintro.test" />
+    </packages>
+    </test>
+    
+       	<test name="Array">
+    <packages>
+        <package name="com.numpy_ninja.dsalgo.arrays.test" />
+    </packages>
+    </test>
+    
+       <test name="Arrays_practiceQuestions">
+    <packages>
+        <package name="com.numpy_ninja.dsalgo.arrays.practicques" />
+    </packages>
+    </test>
+    
+    
+</suite>
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
